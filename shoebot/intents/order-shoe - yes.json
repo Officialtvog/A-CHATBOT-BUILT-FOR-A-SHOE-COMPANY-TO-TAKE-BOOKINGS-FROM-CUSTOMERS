@@ -1,0 +1,63 @@
+{
+  "id": "914bcd24-7424-4389-9b22-ce342162939a",
+  "parentId": "127aaa1d-d4b4-478e-a9bf-db31177e297f",
+  "rootParentId": "127aaa1d-d4b4-478e-a9bf-db31177e297f",
+  "name": "order-shoe - yes",
+  "auto": true,
+  "contexts": [
+    "order-shoe-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "order-shoe.order-shoe-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dfd33a0b-0fbd-48a5-82fb-6b97696eeb12",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "pls can i get your email id?"
+            },
+            {
+              "lang": "en",
+              "value": "pls ypur email id?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great,i would ensure i send a mail to your email $email..thanks for your patronage"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

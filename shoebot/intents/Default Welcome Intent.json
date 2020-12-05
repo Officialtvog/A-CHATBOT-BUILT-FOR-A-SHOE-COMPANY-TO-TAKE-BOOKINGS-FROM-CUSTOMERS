@@ -1,0 +1,43 @@
+{
+  "id": "c5942dad-e48b-495e-aa80-6699b575c9a0",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi! How are you doing? you welcome to shoe bot, what can i do for you?",
+            "Hello! How can I help you? this is shoebot",
+            "Good day! What can I do for you today?this is shoebot",
+            "Greetings! How can I assist?this is shoebot",
+            "hihi,you welcome to shoebot what can i do for you..."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

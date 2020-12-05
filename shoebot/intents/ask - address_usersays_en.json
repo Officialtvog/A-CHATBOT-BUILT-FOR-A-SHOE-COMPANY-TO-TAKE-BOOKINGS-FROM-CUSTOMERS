@@ -1,0 +1,106 @@
+[
+  {
+    "id": "442bb451-4cca-4e88-9048-7e3841aea86e",
+    "data": [
+      {
+        "text": "where do you stay?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7097e981-9a93-442a-a458-90e6633811a8",
+    "data": [
+      {
+        "text": "how can we meet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ebe16f85-04da-4b56-bf12-9c2547919d28",
+    "data": [
+      {
+        "text": "where is your work place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e82fcae5-fbd0-42e4-abec-d2fba6c4e7e3",
+    "data": [
+      {
+        "text": "where can i meet you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8af8a75-2417-4c87-b11d-cf70653a781e",
+    "data": [
+      {
+        "text": "where are you based",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3a326c2e-3571-45bd-b585-484303a09f87",
+    "data": [
+      {
+        "text": "where do you reside",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a3e3b333-adb4-46aa-a7eb-bbb1b85aa2a4",
+    "data": [
+      {
+        "text": "where is your place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d6515b1-ee95-4b6e-817e-5047ceba5bc5",
+    "data": [
+      {
+        "text": "where are you located",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

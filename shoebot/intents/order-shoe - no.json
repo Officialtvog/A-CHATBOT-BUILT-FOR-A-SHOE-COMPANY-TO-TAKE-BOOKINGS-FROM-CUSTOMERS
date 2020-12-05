@@ -1,0 +1,63 @@
+{
+  "id": "ccabb4ef-959a-4653-b331-67e1e01ba31b",
+  "parentId": "127aaa1d-d4b4-478e-a9bf-db31177e297f",
+  "rootParentId": "127aaa1d-d4b4-478e-a9bf-db31177e297f",
+  "name": "order-shoe - no",
+  "auto": true,
+  "contexts": [
+    "order-shoe-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "order-shoe.order-shoe-no",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "26dabf3f-2b03-46e0-8168-e224f51693b2",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "pls can i get your phone number?"
+            },
+            {
+              "lang": "en",
+              "value": "pls your phone number?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "ok no troubles...its fine..we would get through to you via your phone number $phone-number"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

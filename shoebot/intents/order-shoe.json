@@ -1,0 +1,111 @@
+{
+  "id": "127aaa1d-d4b4-478e-a9bf-db31177e297f",
+  "name": "order-shoe",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "order-shoe-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6c1e6e49-0e2b-4f94-bce7-75dbd37447ca",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please of what size"
+            },
+            {
+              "lang": "en",
+              "value": "what size of shoe?pls"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fe2c8976-3219-41f5-91d3-25e4cb574dfd",
+          "name": "color",
+          "required": true,
+          "dataType": "@sys.color",
+          "value": "$color",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what colour of shoe pls"
+            },
+            {
+              "lang": "en",
+              "value": "what colour please"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0465f627-4477-4e2e-bcf4-110d2a85fce9",
+          "name": "any",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what make please?"
+            },
+            {
+              "lang": "en",
+              "value": "what make do you want?pls"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "ok,the shoe of size  $number  with colour  $color  and a make of $any would be booked for you,you can pick it up at our office..would you like a ticket booked for you?",
+            "ok,the shoe of size  $number  with colour  $color  and a make of $any would be booked for you,you can pick it up at our office,would you like us to send the order details"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

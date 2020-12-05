@@ -1,0 +1,146 @@
+[
+  {
+    "id": "8b867ac7-a0f7-4307-b512-dfff50be4b6b",
+    "data": [
+      {
+        "text": "can i get a good shoe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3d26b3d5-aa90-4bd2-85b2-ce321326b18a",
+    "data": [
+      {
+        "text": "i want to get a good shoe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d8134461-193f-499e-9d3d-2bba70d0011b",
+    "data": [
+      {
+        "text": "ohh ok,i need a shoe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ba76304-a641-46d9-973d-700e63a6e655",
+    "data": [
+      {
+        "text": "can i get a shoe pls",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d9bab71-019f-4b7f-8446-fef3964f6e08",
+    "data": [
+      {
+        "text": "i want to get a shoe pls",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "48aa5069-37f3-489f-8b50-dd97484a56d2",
+    "data": [
+      {
+        "text": "i need a shoe pls",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "24681045-3d49-4990-8cda-9697f0d8805b",
+    "data": [
+      {
+        "text": "type is ",
+        "userDefined": false
+      },
+      {
+        "text": "versace",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c3ea7067-4529-44c1-9112-d32194aedb18",
+    "data": [
+      {
+        "text": "brown",
+        "meta": "@sys.color",
+        "alias": "color",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5fa42652-064f-423b-b008-bd9636aa192c",
+    "data": [
+      {
+        "text": "of size ",
+        "userDefined": false
+      },
+      {
+        "text": "41",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bba0e048-745c-49a1-a08d-66c678dfba24",
+    "data": [
+      {
+        "text": "i want to order a shoe pls",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

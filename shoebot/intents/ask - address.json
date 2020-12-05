@@ -1,0 +1,40 @@
+{
+  "id": "ecdbfe9e-40a1-4b60-8f13-fa0fd702e8df",
+  "name": "ask - address",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "we can meet at no 6 igboye street alapere lagos",
+            "we are located at no 6 igboye street alapere lagos",
+            "we can meet at no 6 igboye street alapere lagos",
+            "we reside at no 6 igboye street alapere lagos",
+            "we are based at no 6 igboye street alapere lagos",
+            "i stay at no 6 igboye street alapere lagos"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
